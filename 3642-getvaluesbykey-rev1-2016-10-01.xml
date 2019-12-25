@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="3642-getvaluesbykey-rev1-2016-10-01">
+    <Basepaths>/getvaluesbykey</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1559382162579</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>getValuesByKey</DisplayName>
+    <LastModifiedAt>1559382162579</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:d8c018017e2659fdc39b20c3f3b7059412ec88f266e5249b0c722f018d053e54e95122ae15d604da54d8b1d0520a957f3574ec4647553f2d1be2a395446564fe</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>Lookup-Cache-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

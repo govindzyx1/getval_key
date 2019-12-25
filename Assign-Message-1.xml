@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Message-1">
+    <DisplayName>Assign Message-1</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload contentType="application/json">
+       {
+  "message": "item not found, please check id.." 
+}
+    </Payload>
+    </Set>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>
